@@ -1,0 +1,2 @@
+# djangobook
+projects under djangobook
