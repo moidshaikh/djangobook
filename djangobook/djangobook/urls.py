@@ -20,6 +20,6 @@ from djangobook.views import current_date_time, hours_ahead
 urlpatterns = [
     # url(r'^admin/', admin.site.urls),
     url(r'^time/$', current_date_time),
-	url(r'^time/plus/(\d+)/$', hours_ahead),
+	url(r'^time/plus/(\d{1,2})/$', hours_ahead),
 
 ]
